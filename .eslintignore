@@ -1,0 +1,6 @@
+node_modules/
+build/
+yarn.lock
+webpack.*.config.js
+tailwind.config.js
+postcss.config.js

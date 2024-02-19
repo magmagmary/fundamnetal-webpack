@@ -1,0 +1,10 @@
+# Build folders
+build/
+build-staging/
+
+# Yarn files
+.yarn
+.pnp.*
+
+# Translation files are auto-generated
+src/assets/translations/**.json
