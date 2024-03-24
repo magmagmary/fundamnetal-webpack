@@ -6,8 +6,6 @@ const rules = [
   './style',
   './es6',
   './variables',
-  './cypress',
-  './jest',
   './typescript',
 ].map(require.resolve);
 

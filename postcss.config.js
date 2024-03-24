@@ -4,8 +4,10 @@ module.exports = {
   plugins: [
     require('tailwindcss'),
     !isDev ? require('autoprefixer') : {},
-    !isDev ? require('cssnano')({
-      preset: 'default'
-      }) : {},
+    !isDev
+      ? require('cssnano')({
+          preset: 'default',
+        })
+      : {},
   ],
 };
