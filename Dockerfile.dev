@@ -1,0 +1,11 @@
+FROM node:18.18.0
+WORKDIR /webpack-app
+COPY package.json .
+COPY yarn.lock .
+COPY .yarnrc* .
+COPY .yarn ./.yarn
+COPY .pnp* .
+RUN yarn install
+COPY . .
+EXPOSE 4000
+CMD ["yarn", "start"]

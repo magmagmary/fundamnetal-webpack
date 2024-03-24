@@ -46,13 +46,7 @@ module.exports = merge(common, {
     open: true,
     hot: true,
     compress: true,
-    port: 44702,
+    port: 4000,
     historyApiFallback: true,
-    https: true,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Headers': 'X-Requested-With, content-type, Authorization',
-      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
-    },
   },
 });

@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  webpack:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/webpack-app
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    env_file:
+      - ./environments/.env.dev
