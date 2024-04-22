@@ -1,7 +1,11 @@
 module.exports = {
   extends: ['plugin:react/recommended'],
   plugins: ['react'],
-
+  settings: {
+    react: {
+      version: '999.999.999',
+    },
+  },
   rules: {
     'react/jsx-uses-react': 'off',
     'react/jsx-uses-vars': 'error',
