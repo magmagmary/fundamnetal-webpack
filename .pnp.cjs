@@ -45,7 +45,7 @@ const RAW_RUNTIME_STATE =
           ["cross-env", "npm:7.0.3"],\
           ["css-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:6.10.0"],\
           ["cssnano", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.1.15"],\
-          ["dotenv-webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.0.1"],\
+          ["dotenv-webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.0"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-prettier", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.10.0"],\
           ["eslint-import-resolver-alias", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:1.1.2"],\
@@ -5489,17 +5489,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["dotenv-webpack", [\
-      ["npm:8.0.1", {\
-        "packageLocation": "./.yarn/cache/dotenv-webpack-npm-8.0.1-36e1a1f481-ddd12406e7.zip/node_modules/dotenv-webpack/",\
+      ["npm:8.1.0", {\
+        "packageLocation": "./.yarn/cache/dotenv-webpack-npm-8.1.0-01db2fd0a6-7a64587fc9.zip/node_modules/dotenv-webpack/",\
         "packageDependencies": [\
-          ["dotenv-webpack", "npm:8.0.1"]\
+          ["dotenv-webpack", "npm:8.1.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.0.1", {\
-        "packageLocation": "./.yarn/__virtual__/dotenv-webpack-virtual-86d1b3ced7/0/cache/dotenv-webpack-npm-8.0.1-36e1a1f481-ddd12406e7.zip/node_modules/dotenv-webpack/",\
+      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/dotenv-webpack-virtual-73679efc16/0/cache/dotenv-webpack-npm-8.1.0-01db2fd0a6-7a64587fc9.zip/node_modules/dotenv-webpack/",\
         "packageDependencies": [\
-          ["dotenv-webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.0.1"],\
+          ["dotenv-webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.0"],\
           ["@types/webpack", null],\
           ["dotenv-defaults", "npm:2.0.2"],\
           ["webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.90.3"]\
@@ -12487,7 +12487,7 @@ const RAW_RUNTIME_STATE =
           ["cross-env", "npm:7.0.3"],\
           ["css-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:6.10.0"],\
           ["cssnano", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.1.15"],\
-          ["dotenv-webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.0.1"],\
+          ["dotenv-webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.0"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-prettier", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.10.0"],\
           ["eslint-import-resolver-alias", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:1.1.2"],\
