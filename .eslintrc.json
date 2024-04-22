@@ -2,20 +2,10 @@
   "extends": "./eslint/main.js",
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    // TODO: should enable this option when initiating the use of the "recommended-requiring-type-checking" ESLint rule.
-    // "project":"./tsconfig.json",
     "ecmaFeatures": {
       "jsx": true
     },
     "ecmaVersion": "latest",
     "sourceType": "module"
-  },
-  "settings": {
-    "react": {
-      "version": "999.999.999"
-    }
-  },
-  "globals": {
-    "cy": true
   }
 }
