@@ -60,7 +60,7 @@ const RAW_RUNTIME_STATE =
           ["html-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.6.0"],\
           ["husky", "npm:9.0.11"],\
           ["lint-staged", "npm:15.2.2"],\
-          ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.8.0"],\
+          ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.9.0"],\
           ["npm-run-all2", "npm:5.0.2"],\
           ["postcss", "npm:8.4.35"],\
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.3.4"],\
@@ -8450,17 +8450,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mini-css-extract-plugin", [\
-      ["npm:2.8.0", {\
-        "packageLocation": "./.yarn/cache/mini-css-extract-plugin-npm-2.8.0-f84e80660f-fb69af1368.zip/node_modules/mini-css-extract-plugin/",\
+      ["npm:2.9.0", {\
+        "packageLocation": "./.yarn/cache/mini-css-extract-plugin-npm-2.9.0-e9682fccac-46e20747ea.zip/node_modules/mini-css-extract-plugin/",\
         "packageDependencies": [\
-          ["mini-css-extract-plugin", "npm:2.8.0"]\
+          ["mini-css-extract-plugin", "npm:2.9.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.8.0", {\
-        "packageLocation": "./.yarn/__virtual__/mini-css-extract-plugin-virtual-104f203a4f/0/cache/mini-css-extract-plugin-npm-2.8.0-f84e80660f-fb69af1368.zip/node_modules/mini-css-extract-plugin/",\
+      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.9.0", {\
+        "packageLocation": "./.yarn/__virtual__/mini-css-extract-plugin-virtual-1439b9948e/0/cache/mini-css-extract-plugin-npm-2.9.0-e9682fccac-46e20747ea.zip/node_modules/mini-css-extract-plugin/",\
         "packageDependencies": [\
-          ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.8.0"],\
+          ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.9.0"],\
           ["@types/webpack", null],\
           ["schema-utils", "npm:4.2.0"],\
           ["tapable", "npm:2.2.1"],\
@@ -12502,7 +12502,7 @@ const RAW_RUNTIME_STATE =
           ["html-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.6.0"],\
           ["husky", "npm:9.0.11"],\
           ["lint-staged", "npm:15.2.2"],\
-          ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.8.0"],\
+          ["mini-css-extract-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:2.9.0"],\
           ["npm-run-all2", "npm:5.0.2"],\
           ["postcss", "npm:8.4.35"],\
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.3.4"],\
