@@ -1878,7 +1878,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.6":
+"@types/react-dom@npm:18.2.19":
   version: 18.2.19
   resolution: "@types/react-dom@npm:18.2.19"
   dependencies:
@@ -1899,7 +1899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.20":
+"@types/react@npm:*, @types/react@npm:18.2.56":
   version: 18.2.56
   resolution: "@types/react@npm:18.2.56"
   dependencies:
@@ -9321,8 +9321,8 @@ __metadata:
     "@babel/preset-typescript": "npm:^7.21.0"
     "@types/eslint": "npm:^8.21.1"
     "@types/node": "npm:^18.7.18"
-    "@types/react": "npm:^18.0.20"
-    "@types/react-dom": "npm:^18.0.6"
+    "@types/react": "npm:18.2.56"
+    "@types/react-dom": "npm:18.2.19"
     "@types/react-redux": "npm:^7.1.24"
     "@types/webpack-env": "npm:^1.18.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.53.0"
