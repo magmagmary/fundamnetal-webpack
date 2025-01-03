@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.2"],\
           ["@types/react-redux", "npm:7.1.33"],\
           ["@types/webpack-env", "npm:1.18.5"],\
-          ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19"],\
+          ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.20"],\
           ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:9.2.1"],\
           ["compression-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:11.1.0"],\
           ["cross-env", "npm:7.0.3"],\
@@ -3777,23 +3777,23 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["autoprefixer", [\
-      ["npm:10.4.19", {\
-        "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.19-7c86a73b2f-fe0178eb8b.zip/node_modules/autoprefixer/",\
+      ["npm:10.4.20", {\
+        "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.20-dd5fd05d27-e1f00978a2.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
-          ["autoprefixer", "npm:10.4.19"]\
+          ["autoprefixer", "npm:10.4.20"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19", {\
-        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-64fe78c4ad/0/cache/autoprefixer-npm-10.4.19-7c86a73b2f-fe0178eb8b.zip/node_modules/autoprefixer/",\
+      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.20", {\
+        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-06d00c3153/0/cache/autoprefixer-npm-10.4.20-dd5fd05d27-e1f00978a2.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
-          ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19"],\
+          ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.20"],\
           ["@types/postcss", null],\
-          ["browserslist", "npm:4.23.0"],\
-          ["caniuse-lite", "npm:1.0.30001612"],\
+          ["browserslist", "npm:4.24.3"],\
+          ["caniuse-lite", "npm:1.0.30001690"],\
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
-          ["picocolors", "npm:1.0.0"],\
+          ["picocolors", "npm:1.1.1"],\
           ["postcss", "npm:8.4.49"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
@@ -10749,7 +10749,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.2"],\
           ["@types/react-redux", "npm:7.1.33"],\
           ["@types/webpack-env", "npm:1.18.5"],\
-          ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19"],\
+          ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.20"],\
           ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:9.2.1"],\
           ["compression-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:11.1.0"],\
           ["cross-env", "npm:7.0.3"],\
@@ -16596,18 +16596,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
