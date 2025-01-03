@@ -1,0 +1,6 @@
+{
+  "*.(js|jsx|ts|tsx|md|json|yml|yaml)": ["yarn prettier --write"],
+  "*.(js|ts|tsx)": [
+    "yarn eslint --fix"
+  ]
+}
