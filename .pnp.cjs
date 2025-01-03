@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-redux", "npm:7.1.33"],\
           ["@types/webpack-env", "npm:1.18.4"],\
           ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19"],\
-          ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.3.0"],\
+          ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.4.1"],\
           ["compression-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.0.0"],\
           ["cross-env", "npm:7.0.3"],\
           ["css-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:6.11.0"],\
@@ -3815,17 +3815,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["babel-loader", [\
-      ["npm:8.3.0", {\
-        "packageLocation": "./.yarn/cache/babel-loader-npm-8.3.0-a5239d7ed2-7b83bae35a.zip/node_modules/babel-loader/",\
+      ["npm:8.4.1", {\
+        "packageLocation": "./.yarn/cache/babel-loader-npm-8.4.1-24e96acb97-efdca9c3ef.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
-          ["babel-loader", "npm:8.3.0"]\
+          ["babel-loader", "npm:8.4.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.3.0", {\
-        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-d13d897e49/0/cache/babel-loader-npm-8.3.0-a5239d7ed2-7b83bae35a.zip/node_modules/babel-loader/",\
+      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-4fc5c83d08/0/cache/babel-loader-npm-8.4.1-24e96acb97-efdca9c3ef.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
-          ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.3.0"],\
+          ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.4.1"],\
           ["@babel/core", "npm:7.24.4"],\
           ["@types/babel__core", null],\
           ["@types/webpack", null],\
@@ -10524,7 +10524,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-redux", "npm:7.1.33"],\
           ["@types/webpack-env", "npm:1.18.4"],\
           ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.19"],\
-          ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.3.0"],\
+          ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.4.1"],\
           ["compression-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.0.0"],\
           ["cross-env", "npm:7.0.3"],\
           ["css-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:6.11.0"],\
@@ -16379,18 +16379,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
