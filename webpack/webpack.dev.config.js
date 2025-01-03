@@ -1,10 +1,13 @@
-const path = require('path');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common.config.js');
-const Dotenv = require('dotenv-webpack');
-const webpack = require('webpack');
+import path from 'node:path';
+import url from 'node:url';
+import Dotenv from 'dotenv-webpack';
+import webpack from 'webpack';
+import { merge } from 'webpack-merge';
+import common from './webpack.common.config.js';
 
-module.exports = merge(common, {
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
+
+const config = merge(common, {
 	mode: 'development',
 	bail: true,
 	output: {
@@ -50,3 +53,5 @@ module.exports = merge(common, {
 		historyApiFallback: true,
 	},
 });
+
+export default config;

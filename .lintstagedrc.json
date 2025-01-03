@@ -1,3 +1,5 @@
 {
-	"*.(js|jsx|ts|tsx|md|json|yml|yaml)": ["yarn biome check . --log-level=error --diagnostic-level=error --no-errors-on-unmatched"]
+	"*.(js|jsx|ts|tsx|md|json|yml|yaml)": [
+		"yarn biome check . --log-level=error --diagnostic-level=error --no-errors-on-unmatched"
+	]
 }
