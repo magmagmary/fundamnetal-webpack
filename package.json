@@ -57,5 +57,9 @@
 		"react-dom": "19.0.0"
 	},
 	"packageManager": "yarn@4.6.0",
-	"browserslist": [">0.2%", "not ie <= 11", "not op_mini all"]
+	"browserslist": [
+		">0.2%",
+		"not ie <= 11",
+		"not op_mini all"
+	]
 }
