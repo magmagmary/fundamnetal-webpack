@@ -21,7 +21,7 @@
     "@babel/preset-env": "7.24.4",
     "@babel/preset-react": "7.24.1",
     "@babel/preset-typescript": "7.24.1",
-    "@types/eslint": "8.56.10",
+    "@types/eslint": "8.56.12",
     "@types/gh-pages": "^6",
     "@types/node": "18.19.31",
     "@types/react": "18.2.79",
