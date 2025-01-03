@@ -72,7 +72,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.6.0",
   "browserslist": [
     ">0.2%",
     "not ie <= 11",
