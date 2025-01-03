@@ -1,7 +1,7 @@
 {
-  "bundle.css": "/Fundamental-Webpack/static/css/bundle.0444d510d8fb008a87d6.css",
-  "bundle.js": "/Fundamental-Webpack/static/js/bundle.0444d510d8fb008a87d6.js",
-  "runtime.js": "/Fundamental-Webpack/static/js/runtime.aab5e3ed3e220c953942.js",
-  "react.js": "/Fundamental-Webpack/static/js/react.6e0166ce10c4946ffb64.js",
-  "index.html": "/Fundamental-Webpack/index.html"
+  "bundle.css": "/static/css/bundle.0444d510d8fb008a87d6.css",
+  "bundle.js": "/static/js/bundle.0444d510d8fb008a87d6.js",
+  "runtime.js": "/static/js/runtime.aab5e3ed3e220c953942.js",
+  "react.js": "/static/js/react.6e0166ce10c4946ffb64.js",
+  "index.html": "/index.html"
 }
