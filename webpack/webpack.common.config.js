@@ -2,7 +2,6 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 
 module.exports = {
   entry: {
@@ -44,7 +43,6 @@ module.exports = {
       filename: 'static/css/[name].[chunkhash].css',
       chunkFilename: 'static/css/[name].[chunkhash].chunk.css',
     }),
-    new WebpackManifestPlugin(),
   ],
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],

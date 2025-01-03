@@ -82,7 +82,6 @@ const RAW_RUNTIME_STATE =
           ["webpack-bundle-analyzer", "npm:4.10.1"],\
           ["webpack-cli", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.10.0"],\
           ["webpack-dev-server", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.15.2"],\
-          ["webpack-manifest-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.0.0"],\
           ["webpack-merge", "npm:5.10.0"]\
         ],\
         "linkType": "SOFT"\
@@ -11397,15 +11396,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["source-list-map", [\
-      ["npm:2.0.1", {\
-        "packageLocation": "./.yarn/cache/source-list-map-npm-2.0.1-625c551052-2e5e421b18.zip/node_modules/source-list-map/",\
-        "packageDependencies": [\
-          ["source-list-map", "npm:2.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["source-map", [\
       ["npm:0.6.1", {\
         "packageLocation": "./.yarn/cache/source-map-npm-0.6.1-1a3621db16-ab55398007.zip/node_modules/source-map/",\
@@ -12717,34 +12707,9 @@ const RAW_RUNTIME_STATE =
           ["webpack-bundle-analyzer", "npm:4.10.1"],\
           ["webpack-cli", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.10.0"],\
           ["webpack-dev-server", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.15.2"],\
-          ["webpack-manifest-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.0.0"],\
           ["webpack-merge", "npm:5.10.0"]\
         ],\
         "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["webpack-manifest-plugin", [\
-      ["npm:5.0.0", {\
-        "packageLocation": "./.yarn/cache/webpack-manifest-plugin-npm-5.0.0-d9c03b2f9d-c6baed6785.zip/node_modules/webpack-manifest-plugin/",\
-        "packageDependencies": [\
-          ["webpack-manifest-plugin", "npm:5.0.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/webpack-manifest-plugin-virtual-998596fef8/0/cache/webpack-manifest-plugin-npm-5.0.0-d9c03b2f9d-c6baed6785.zip/node_modules/webpack-manifest-plugin/",\
-        "packageDependencies": [\
-          ["webpack-manifest-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.0.0"],\
-          ["@types/webpack", null],\
-          ["tapable", "npm:2.2.1"],\
-          ["webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.91.0"],\
-          ["webpack-sources", "npm:2.3.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/webpack",\
-          "webpack"\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["webpack-merge", [\
@@ -12760,15 +12725,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["webpack-sources", [\
-      ["npm:2.3.1", {\
-        "packageLocation": "./.yarn/cache/webpack-sources-npm-2.3.1-fac7f75ad9-caf56a9a47.zip/node_modules/webpack-sources/",\
-        "packageDependencies": [\
-          ["webpack-sources", "npm:2.3.1"],\
-          ["source-list-map", "npm:2.0.1"],\
-          ["source-map", "npm:0.6.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.2.3", {\
         "packageLocation": "./.yarn/cache/webpack-sources-npm-3.2.3-6bfb5d9563-2ef63d77c4.zip/node_modules/webpack-sources/",\
         "packageDependencies": [\
