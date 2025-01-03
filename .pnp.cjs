@@ -10898,10 +10898,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:57768ac46c56f84ed2602a325a7058b7cd8bcbeca704995d8ca8dce47055cb63fd910c635e0fd2cb7ae48b70755c7adf2c18a98e9f57a1f1c8d707383a5fed10#npm:7.5.9", {\
-        "packageLocation": "./.yarn/__virtual__/ws-virtual-c933fba4a7/0/cache/ws-npm-7.5.9-26f12a5ed6-aec4ef4eb6.zip/node_modules/ws/",\
+      ["virtual:970f80a64861d25f93dc52dd1b2fb0a34ded7a9f4f58a0c9d8413c85ae4a9db20b165343a80d1c5c543ecf1937f15675f0b2fda9e51458beef186489e54ecbb4#npm:7.5.9", {\
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-dec45c8b50/0/cache/ws-npm-7.5.9-26f12a5ed6-aec4ef4eb6.zip/node_modules/ws/",\
         "packageDependencies": [\
-          ["ws", "virtual:57768ac46c56f84ed2602a325a7058b7cd8bcbeca704995d8ca8dce47055cb63fd910c635e0fd2cb7ae48b70755c7adf2c18a98e9f57a1f1c8d707383a5fed10#npm:7.5.9"],\
+          ["ws", "virtual:970f80a64861d25f93dc52dd1b2fb0a34ded7a9f4f58a0c9d8413c85ae4a9db20b165343a80d1c5c543ecf1937f15675f0b2fda9e51458beef186489e54ecbb4#npm:7.5.9"],\
           ["@types/bufferutil", null],\
           ["@types/utf-8-validate", null],\
           ["bufferutil", null],\
@@ -10915,10 +10915,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:970f80a64861d25f93dc52dd1b2fb0a34ded7a9f4f58a0c9d8413c85ae4a9db20b165343a80d1c5c543ecf1937f15675f0b2fda9e51458beef186489e54ecbb4#npm:7.5.9", {\
-        "packageLocation": "./.yarn/__virtual__/ws-virtual-dec45c8b50/0/cache/ws-npm-7.5.9-26f12a5ed6-aec4ef4eb6.zip/node_modules/ws/",\
+      ["virtual:c50368bc4aacc5519a61f1e3f817339492e018e1536159517f8699ba4a28e474faa52cdf9f8a861abc1f0dab4d2007edf9edac9712274cd0a027142191394867#npm:8.18.0", {\
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-b4d9d643ea/0/cache/ws-npm-8.18.0-56f68bc4d6-25eb33aff1.zip/node_modules/ws/",\
         "packageDependencies": [\
-          ["ws", "virtual:970f80a64861d25f93dc52dd1b2fb0a34ded7a9f4f58a0c9d8413c85ae4a9db20b165343a80d1c5c543ecf1937f15675f0b2fda9e51458beef186489e54ecbb4#npm:7.5.9"],\
+          ["ws", "virtual:c50368bc4aacc5519a61f1e3f817339492e018e1536159517f8699ba4a28e474faa52cdf9f8a861abc1f0dab4d2007edf9edac9712274cd0a027142191394867#npm:8.18.0"],\
           ["@types/bufferutil", null],\
           ["@types/utf-8-validate", null],\
           ["bufferutil", null],\
@@ -16596,20 +16596,18 @@ Require stack:
     }
     return false;
   };
-  if (!process.features.require_module) {
-    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-    require$$0.Module._extensions[`.js`] = function(module, filename) {
-      if (filename.endsWith(`.js`)) {
-        const pkg = readPackageScope(filename);
-        if (pkg && pkg.data?.type === `module`) {
-          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-          Error.captureStackTrace(err);
-          throw err;
-        }
+  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+  require$$0.Module._extensions[`.js`] = function(module, filename) {
+    if (filename.endsWith(`.js`)) {
+      const pkg = readPackageScope(filename);
+      if (pkg && pkg.data?.type === `module`) {
+        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+        Error.captureStackTrace(err);
+        throw err;
       }
-      originalExtensionJSFunction.call(this, module, filename);
-    };
-  }
+    }
+    originalExtensionJSFunction.call(this, module, filename);
+  };
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
