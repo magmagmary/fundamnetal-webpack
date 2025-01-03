@@ -1,7 +1,7 @@
 {
   "name": "webpack-fundamentals",
   "license": "MIT",
-  "author": "MagMagMary 70",
+  "author": "MagMagMary",
   "homepage": "https://magmagmary.github.io/Fundamental-Webpack/",
   "scripts": {
     "start": "cross-env webpack serve --config webpack/webpack.dev.config.js",
