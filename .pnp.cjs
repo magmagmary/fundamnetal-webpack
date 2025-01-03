@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-typescript", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.26.0"],\
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:18.19.31"],\
+          ["@types/node", "npm:18.19.69"],\
           ["@types/react", "npm:18.2.79"],\
           ["@types/react-dom", "npm:18.2.25"],\
           ["@types/react-redux", "npm:7.1.33"],\
@@ -2957,10 +2957,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:18.19.31", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-18.19.31-cace5a518d-bfebae8389.zip/node_modules/@types/node/",\
+      ["npm:18.19.69", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-18.19.69-17bc8afded-f10ae0d07b.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:18.19.31"],\
+          ["@types/node", "npm:18.19.69"],\
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
@@ -10509,7 +10509,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-typescript", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.26.0"],\
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:18.19.31"],\
+          ["@types/node", "npm:18.19.69"],\
           ["@types/react", "npm:18.2.79"],\
           ["@types/react-dom", "npm:18.2.25"],\
           ["@types/react-redux", "npm:7.1.33"],\
