@@ -57,7 +57,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.26.0":
+"@babel/core@npm:7.26.0":
   version: 7.26.0
   resolution: "@babel/core@npm:7.26.0"
   dependencies:
@@ -441,7 +441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-dynamic-import@npm:^7.8.3":
+"@babel/plugin-syntax-dynamic-import@npm:7.8.3":
   version: 7.8.3
   resolution: "@babel/plugin-syntax-dynamic-import@npm:7.8.3"
   dependencies:
@@ -1159,7 +1159,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.26.0":
+"@babel/preset-env@npm:7.26.0":
   version: 7.26.0
   resolution: "@babel/preset-env@npm:7.26.0"
   dependencies:
@@ -1251,7 +1251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.26.3":
+"@babel/preset-react@npm:7.26.3":
   version: 7.26.3
   resolution: "@babel/preset-react@npm:7.26.3"
   dependencies:
@@ -1267,7 +1267,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.26.0":
+"@babel/preset-typescript@npm:7.26.0":
   version: 7.26.0
   resolution: "@babel/preset-typescript@npm:7.26.0"
   dependencies:
@@ -1345,7 +1345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:^1.9.4":
+"@biomejs/biome@npm:1.9.4":
   version: 1.9.4
   resolution: "@biomejs/biome@npm:1.9.4"
   dependencies:
@@ -1858,7 +1858,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/gh-pages@npm:^6":
+"@types/gh-pages@npm:6.1.0":
   version: 6.1.0
   resolution: "@types/gh-pages@npm:6.1.0"
   checksum: 10c0/d8bf644822df211accac9cff24fcc0a5155fd715d05bc1698175623f5cde1aff81c302e7e38f7105e0fa0fe7ab24d7009d8dbb875897af669f48e06c3c20484c
@@ -2504,7 +2504,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^9.2.1":
+"babel-loader@npm:9.2.1":
   version: 9.2.1
   resolution: "babel-loader@npm:9.2.1"
   dependencies:
@@ -4266,7 +4266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gh-pages@npm:^6.3.0":
+"gh-pages@npm:6.3.0":
   version: 6.3.0
   resolution: "gh-pages@npm:6.3.0"
   dependencies:
@@ -6121,7 +6121,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:^8.1.1":
+"postcss-loader@npm:8.1.1":
   version: 8.1.1
   resolution: "postcss-loader@npm:8.1.1"
   dependencies:
@@ -6454,6 +6454,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:8.4.49":
+  version: 8.4.49
+  resolution: "postcss@npm:8.4.49"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10c0/f1b3f17aaf36d136f59ec373459f18129908235e65dbdc3aee5eef8eba0756106f52de5ec4682e29a2eab53eb25170e7e871b3e4b52a8f1de3d344a514306be3
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^8.4.23, postcss@npm:^8.4.33":
   version: 8.4.38
   resolution: "postcss@npm:8.4.38"
@@ -6462,17 +6473,6 @@ __metadata:
     picocolors: "npm:^1.0.0"
     source-map-js: "npm:^1.2.0"
   checksum: 10c0/955407b8f70cf0c14acf35dab3615899a2a60a26718a63c848cf3c29f2467b0533991b985a2b994430d890bd7ec2b1963e36352b0774a19143b5f591540f7c06
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.49":
-  version: 8.4.49
-  resolution: "postcss@npm:8.4.49"
-  dependencies:
-    nanoid: "npm:^3.3.7"
-    picocolors: "npm:^1.1.1"
-    source-map-js: "npm:^1.2.1"
-  checksum: 10c0/f1b3f17aaf36d136f59ec373459f18129908235e65dbdc3aee5eef8eba0756106f52de5ec4682e29a2eab53eb25170e7e871b3e4b52a8f1de3d344a514306be3
   languageName: node
   linkType: hard
 
@@ -6947,7 +6947,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^16.0.4":
+"sass-loader@npm:16.0.4":
   version: 16.0.4
   resolution: "sass-loader@npm:16.0.4"
   dependencies:
@@ -6973,7 +6973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.83.0":
+"sass@npm:1.83.0":
   version: 1.83.0
   resolution: "sass@npm:1.83.0"
   dependencies:
@@ -8116,37 +8116,37 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "webpack-fundamentals@workspace:."
   dependencies:
-    "@babel/core": "npm:^7.26.0"
-    "@babel/plugin-syntax-dynamic-import": "npm:^7.8.3"
-    "@babel/preset-env": "npm:^7.26.0"
-    "@babel/preset-react": "npm:^7.26.3"
-    "@babel/preset-typescript": "npm:^7.26.0"
-    "@biomejs/biome": "npm:^1.9.4"
-    "@types/gh-pages": "npm:^6"
+    "@babel/core": "npm:7.26.0"
+    "@babel/plugin-syntax-dynamic-import": "npm:7.8.3"
+    "@babel/preset-env": "npm:7.26.0"
+    "@babel/preset-react": "npm:7.26.3"
+    "@babel/preset-typescript": "npm:7.26.0"
+    "@biomejs/biome": "npm:1.9.4"
+    "@types/gh-pages": "npm:6.1.0"
     "@types/node": "npm:22.10.5"
     "@types/react": "npm:19.0.2"
     "@types/react-dom": "npm:19.0.2"
     "@types/react-redux": "npm:7.1.33"
     "@types/webpack-env": "npm:1.18.5"
     autoprefixer: "npm:10.4.19"
-    babel-loader: "npm:^9.2.1"
+    babel-loader: "npm:9.2.1"
     compression-webpack-plugin: "npm:11.1.0"
     cross-env: "npm:7.0.3"
     css-loader: "npm:7.1.2"
     cssnano: "npm:7.0.6"
     dotenv-webpack: "npm:8.1.0"
     fork-ts-checker-webpack-plugin: "npm:9.0.2"
-    gh-pages: "npm:^6.3.0"
+    gh-pages: "npm:6.3.0"
     html-webpack-plugin: "npm:5.6.0"
     husky: "npm:9.0.11"
     lint-staged: "npm:15.2.2"
     mini-css-extract-plugin: "npm:2.9.0"
-    postcss: "npm:^8.4.49"
-    postcss-loader: "npm:^8.1.1"
+    postcss: "npm:8.4.49"
+    postcss-loader: "npm:8.1.1"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
-    sass: "npm:^1.83.0"
-    sass-loader: "npm:^16.0.4"
+    sass: "npm:1.83.0"
+    sass-loader: "npm:16.0.4"
     style-loader: "npm:4.0.0"
     tailwindcss: "npm:3.4.3"
     terser-webpack-plugin: "npm:5.3.10"
