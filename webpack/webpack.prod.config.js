@@ -16,7 +16,7 @@ module.exports = merge(common, {
     chunkFilename: 'static/js/[name].[chunkhash].chunk.js',
     assetModuleFilename: 'static/assets/[name].[hash][ext][query]',
     clean: true,
-    publicPath: '/',
+    publicPath: '/Fundamental-Webpack',
   },
   stats: 'errors-warnings',
   module: {
