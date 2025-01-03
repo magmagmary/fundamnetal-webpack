@@ -55,7 +55,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.38"],\
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.3.4"],\
           ["prettier", "npm:2.8.8"],\
-          ["prettier-plugin-tailwindcss", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.5.14"],\
+          ["prettier-plugin-tailwindcss", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.6.9"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:18.2.0"],\
           ["sass", "npm:1.75.0"],\
@@ -8635,17 +8635,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier-plugin-tailwindcss", [\
-      ["npm:0.5.14", {\
-        "packageLocation": "./.yarn/cache/prettier-plugin-tailwindcss-npm-0.5.14-4c72a3a392-9857873cb8.zip/node_modules/prettier-plugin-tailwindcss/",\
+      ["npm:0.6.9", {\
+        "packageLocation": "./.yarn/cache/prettier-plugin-tailwindcss-npm-0.6.9-b8379758a4-370b1d6706.zip/node_modules/prettier-plugin-tailwindcss/",\
         "packageDependencies": [\
-          ["prettier-plugin-tailwindcss", "npm:0.5.14"]\
+          ["prettier-plugin-tailwindcss", "npm:0.6.9"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.5.14", {\
-        "packageLocation": "./.yarn/__virtual__/prettier-plugin-tailwindcss-virtual-326a3f40a5/0/cache/prettier-plugin-tailwindcss-npm-0.5.14-4c72a3a392-9857873cb8.zip/node_modules/prettier-plugin-tailwindcss/",\
+      ["virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.6.9", {\
+        "packageLocation": "./.yarn/__virtual__/prettier-plugin-tailwindcss-virtual-4c3432e584/0/cache/prettier-plugin-tailwindcss-npm-0.6.9-b8379758a4-370b1d6706.zip/node_modules/prettier-plugin-tailwindcss/",\
         "packageDependencies": [\
-          ["prettier-plugin-tailwindcss", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.5.14"],\
+          ["prettier-plugin-tailwindcss", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.6.9"],\
           ["@ianvs/prettier-plugin-sort-imports", null],\
           ["@prettier/plugin-pug", null],\
           ["@shopify/prettier-plugin-liquid", null],\
@@ -8657,6 +8657,7 @@ const RAW_RUNTIME_STATE =
           ["@types/prettier-plugin-import-sort", null],\
           ["@types/prettier-plugin-jsdoc", null],\
           ["@types/prettier-plugin-marko", null],\
+          ["@types/prettier-plugin-multiline-arrays", null],\
           ["@types/prettier-plugin-organize-attributes", null],\
           ["@types/prettier-plugin-organize-imports", null],\
           ["@types/prettier-plugin-sort-imports", null],\
@@ -8673,6 +8674,7 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-import-sort", null],\
           ["prettier-plugin-jsdoc", null],\
           ["prettier-plugin-marko", null],\
+          ["prettier-plugin-multiline-arrays", null],\
           ["prettier-plugin-organize-attributes", null],\
           ["prettier-plugin-organize-imports", null],\
           ["prettier-plugin-sort-imports", null],\
@@ -8690,6 +8692,7 @@ const RAW_RUNTIME_STATE =
           "@types/prettier-plugin-import-sort",\
           "@types/prettier-plugin-jsdoc",\
           "@types/prettier-plugin-marko",\
+          "@types/prettier-plugin-multiline-arrays",\
           "@types/prettier-plugin-organize-attributes",\
           "@types/prettier-plugin-organize-imports",\
           "@types/prettier-plugin-sort-imports",\
@@ -8706,6 +8709,7 @@ const RAW_RUNTIME_STATE =
           "prettier-plugin-import-sort",\
           "prettier-plugin-jsdoc",\
           "prettier-plugin-marko",\
+          "prettier-plugin-multiline-arrays",\
           "prettier-plugin-organize-attributes",\
           "prettier-plugin-organize-imports",\
           "prettier-plugin-sort-imports",\
@@ -10539,7 +10543,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.38"],\
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.3.4"],\
           ["prettier", "npm:2.8.8"],\
-          ["prettier-plugin-tailwindcss", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.5.14"],\
+          ["prettier-plugin-tailwindcss", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:0.6.9"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:18.2.0"],\
           ["sass", "npm:1.75.0"],\
@@ -16379,18 +16383,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
