@@ -1,6 +1,3 @@
 {
-  "*.(js|jsx|ts|tsx|md|json|yml|yaml)": ["yarn prettier --write"],
-  "*.(js|ts|tsx)": [
-    "yarn eslint --fix"
-  ]
+	"*.(js|jsx|ts|tsx|md|json|yml|yaml)": ["yarn biome check . --log-level=error --diagnostic-level=error --no-errors-on-unmatched"]
 }
