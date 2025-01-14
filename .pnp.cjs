@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/gh-pages", "npm:6.1.0"],\
           ["@types/node", "npm:22.10.5"],\
-          ["@types/react", "npm:19.0.5"],\
+          ["@types/react", "npm:19.0.7"],\
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.3"],\
           ["@types/webpack-env", "npm:1.18.5"],\
           ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.20"],\
@@ -3075,10 +3075,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react", [\
-      ["npm:19.0.5", {\
-        "packageLocation": "./.yarn/cache/@types-react-npm-19.0.5-aa8526e7ec-6f3a25c826.zip/node_modules/@types/react/",\
+      ["npm:19.0.7", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-19.0.7-89668a8704-818e546fa0.zip/node_modules/@types/react/",\
         "packageDependencies": [\
-          ["@types/react", "npm:19.0.5"],\
+          ["@types/react", "npm:19.0.7"],\
           ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
@@ -3096,7 +3096,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-db4ac9e7be/0/cache/@types-react-dom-npm-19.0.3-c704dfd4e3-3867427b33.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.3"],\
-          ["@types/react", "npm:19.0.5"]\
+          ["@types/react", "npm:19.0.7"]\
         ],\
         "packagePeers": [\
           "@types/react"\
@@ -8928,7 +8928,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-030c63182d/0/cache/react-dom-npm-19.0.0-b7981c573e-a36ce7ab50.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.0"],\
-          ["@types/react", "npm:19.0.5"],\
+          ["@types/react", "npm:19.0.7"],\
           ["react", "npm:19.0.0"],\
           ["scheduler", "npm:0.25.0"]\
         ],\
@@ -10758,7 +10758,7 @@ const RAW_RUNTIME_STATE =
           ["@biomejs/biome", "npm:1.9.4"],\
           ["@types/gh-pages", "npm:6.1.0"],\
           ["@types/node", "npm:22.10.5"],\
-          ["@types/react", "npm:19.0.5"],\
+          ["@types/react", "npm:19.0.7"],\
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.3"],\
           ["@types/webpack-env", "npm:1.18.5"],\
           ["autoprefixer", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:10.4.20"],\
