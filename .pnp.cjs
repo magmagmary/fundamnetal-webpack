@@ -55,7 +55,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.1"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.0"],\
-          ["sass", "npm:1.83.1"],\
+          ["sass", "npm:1.83.4"],\
           ["sass-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:16.0.4"],\
           ["style-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.0.0"],\
           ["tailwindcss", "npm:3.4.17"],\
@@ -9282,10 +9282,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.83.1", {\
-        "packageLocation": "./.yarn/cache/sass-npm-1.83.1-543e7bb3e0-9772506cd8.zip/node_modules/sass/",\
+      ["npm:1.83.4", {\
+        "packageLocation": "./.yarn/cache/sass-npm-1.83.4-a8514cedd9-6f27f0eebf.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["sass", "npm:1.83.1"],\
+          ["sass", "npm:1.83.4"],\
           ["@parcel/watcher", "npm:2.5.0"],\
           ["chokidar", "npm:4.0.3"],\
           ["immutable", "npm:5.0.3"],\
@@ -9314,7 +9314,7 @@ const RAW_RUNTIME_STATE =
           ["@types/webpack", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.83.1"],\
+          ["sass", "npm:1.83.4"],\
           ["sass-embedded", null],\
           ["webpack", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.97.1"]\
         ],\
@@ -10778,7 +10778,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:8.1.1"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.0"],\
-          ["sass", "npm:1.83.1"],\
+          ["sass", "npm:1.83.4"],\
           ["sass-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:16.0.4"],\
           ["style-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.0.0"],\
           ["tailwindcss", "npm:3.4.17"],\
