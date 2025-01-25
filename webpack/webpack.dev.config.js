@@ -9,7 +9,7 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 const config = merge(common, {
 	mode: 'development',
-	bail: true,
+	bail: false,
 	output: {
 		path: path.resolve(__dirname, '../../build'),
 		filename: 'static/js/bundle.js',
@@ -27,7 +27,6 @@ const config = merge(common, {
 					{ loader: 'style-loader' },
 					{ loader: 'css-loader' },
 					{ loader: 'postcss-loader' },
-					{ loader: 'sass-loader' },
 				],
 			},
 		],
