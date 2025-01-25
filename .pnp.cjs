@@ -38,7 +38,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.10.7"],\
           ["@types/react", "npm:19.0.7"],\
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.3"],\
-          ["@types/webpack-env", "npm:1.18.5"],\
+          ["@types/webpack-env", "npm:1.18.6"],\
           ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:9.2.1"],\
           ["compression-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:11.1.0"],\
           ["cross-env", "npm:7.0.3"],\
@@ -3157,10 +3157,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/webpack-env", [\
-      ["npm:1.18.5", {\
-        "packageLocation": "./.yarn/cache/@types-webpack-env-npm-1.18.5-3d85d92443-b9e4876e8c.zip/node_modules/@types/webpack-env/",\
+      ["npm:1.18.6", {\
+        "packageLocation": "./.yarn/cache/@types-webpack-env-npm-1.18.6-02031c19af-b0d6ef810e.zip/node_modules/@types/webpack-env/",\
         "packageDependencies": [\
-          ["@types/webpack-env", "npm:1.18.5"]\
+          ["@types/webpack-env", "npm:1.18.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10455,7 +10455,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.10.7"],\
           ["@types/react", "npm:19.0.7"],\
           ["@types/react-dom", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:19.0.3"],\
-          ["@types/webpack-env", "npm:1.18.5"],\
+          ["@types/webpack-env", "npm:1.18.6"],\
           ["babel-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:9.2.1"],\
           ["compression-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:11.1.0"],\
           ["cross-env", "npm:7.0.3"],\
