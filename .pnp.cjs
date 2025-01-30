@@ -60,7 +60,7 @@ const RAW_RUNTIME_STATE =
           ["react-router", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.1.3"],\
           ["serve", "npm:14.2.4"],\
           ["style-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.0.0"],\
-          ["tailwindcss", "npm:4.0.0"],\
+          ["tailwindcss", "npm:4.0.1"],\
           ["terser-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.3.11"],\
           ["ts-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:9.5.2"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
@@ -10343,6 +10343,13 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.0.1", {\
+        "packageLocation": "./.yarn/cache/tailwindcss-npm-4.0.1-1023c982ab-06a512f34a.zip/node_modules/tailwindcss/",\
+        "packageDependencies": [\
+          ["tailwindcss", "npm:4.0.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["tapable", [\
@@ -11129,7 +11136,7 @@ const RAW_RUNTIME_STATE =
           ["react-router", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:7.1.3"],\
           ["serve", "npm:14.2.4"],\
           ["style-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:4.0.0"],\
-          ["tailwindcss", "npm:4.0.0"],\
+          ["tailwindcss", "npm:4.0.1"],\
           ["terser-webpack-plugin", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:5.3.11"],\
           ["ts-loader", "virtual:46043f39e53e8a0f301391269908e5a3adc5dfd577f05f536609b6e88166b12e07cfca935ac3a4156939ea6c5a4026515779d8bec5a80e7fe9bd9c43c30caa7e#npm:9.5.2"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
